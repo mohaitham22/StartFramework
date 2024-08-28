@@ -1,0 +1,21 @@
+.icon{
+    position: relative;
+}
+.icon::after{
+    position: absolute;
+    content: '';
+    top: 37%;
+    left: 52%;
+    height: 3px;
+    width: 8%;
+    background: #000;
+}
+.icon::before{
+    position: absolute;
+    content: '';
+    top: 37%;
+    right: 52%;
+    height: 3px;
+    width: 8%;
+    background: #000;
+}

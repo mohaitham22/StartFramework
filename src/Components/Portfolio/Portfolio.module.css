@@ -1,0 +1,47 @@
+/* Portfolio.module.css */
+.icon {
+    position: relative;
+  }
+  
+  .icon::after {
+    position: absolute;
+    content: '';
+    top: 37%;
+    left: 54%;
+    height: 5px;
+    width: 7%;
+    background: #000;
+  }
+  
+  .icon::before {
+    position: absolute;
+    content: '';
+    top: 37%;
+    right: 54%;
+    height: 5px;
+    width: 7%;
+    background: #000;
+  }
+  
+  .portfolio {
+    position: relative;
+  }
+  
+  .plus {
+    position: absolute;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    background-color: #1abc9c;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    opacity: 0;
+    transition: opacity 0.3s ease-in-out; 
+  }
+  
+  .portfolio:hover .plus {
+    opacity: 1;
+  }
+  

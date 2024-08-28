@@ -1,0 +1,24 @@
+.header{
+    background-color: #1ABC9C;
+}
+.icon{
+    position: relative;
+}
+.icon::after{
+    position: absolute;
+    content: '';
+    top: 37%;
+    left: 55%;
+    height: 5px;
+    width: 17%;
+    background: #fff;
+}
+.icon::before{
+    position: absolute;
+    content: '';
+    top: 37%;
+    right: 55%;
+    height: 6px;
+    width: 17%;
+    background: #fff;
+}
